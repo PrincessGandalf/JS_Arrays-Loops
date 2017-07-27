@@ -1,8 +1,8 @@
-var x = ["green", 333, "running"]
+var x = ["green", 333, "running", "coding"]
 
 for(var i = 0; i < x.length; i++) {
       if (i == 3) text = console.log("my 3rd choice is " + x[i]);
       else if (i == 2) text = console.log("my 2nd choice is " + x[i]);
       else if (i == 1) text = console.log("my 1st choice is " + x[i]);
-      else console.log("my " + i + "th choice is " + x[i]);
+      else console.log("my " + (i+1) + "th choice is " + x[i]);
    }
