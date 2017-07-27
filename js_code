@@ -1,3 +1,5 @@
+var x = ["green", 333, "running"]
+
 for(var i = 0; i < x.length; i++) {
       if (i == 3) text = console.log("my 3rd choice is " + x[i]);
       else if (i == 2) text = console.log("my 2nd choice is " + x[i]);
